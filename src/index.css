@@ -1,0 +1,137 @@
+
+.row {
+  text-align: center;
+  padding:1rem;
+  box-shadow: 1.5rem 2rem 3rem rgba(0,0,0,0.09);
+  background: #1e5799; 
+  background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 38%, #2989d8 38%, #5a97c9 68%, #7db9e8 100%);
+  background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 38%,#2989d8 38%,#5a97c9 68%,#7db9e8 100%); 
+  background: linear-gradient(to bottom, #1e5799 0%,#2989d8 38%,#2989d8 38%,#5a97c9 68%,#7db9e8 100%); 
+
+}
+
+.column {
+  text-align:center;
+  flex: 33.33%;
+  padding: 5px;
+}
+.title{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-size-adjust: 50;
+  background-color: rgb(52, 141, 201);
+}
+
+.text-box {
+  margin-left: 44vw;
+ margin-top: 42vh;
+}
+
+
+.title {
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  background: red;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {background-color: rgb(0, 26, 255);}
+  to {background-color: rgba(0, 247, 255, 0.815);}
+}
+
+
+input[type=text] {
+  cursor: auto;
+  color: #080258;
+  background-color: #5a97c9;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(13, 17, 255);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=Url] {
+  cursor:auto;
+  color: #080258;
+  background-color: #5a97c9;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(13, 17, 255);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+
+  width: 100%;
+  background-color: #080258;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input {
+  width: 100%;
+  background-color: #080258;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+label {
+  align-content: center;
+	color: rgb(2, 1, 1);
+	padding: 10px;
+	margin: 3px;
+}
+label {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+input[type=submit]:hover {
+  background-color: #0c6497;
+}
+
+div {
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.btn {
+  width: 100%;
+  background-color: #050374;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.add{
+  background-color: rgb(46, 76, 175);
+  
+  width: 100%;
+  height: max-content;
+}
+.add:hover{
+  background-color: cadetblue;
+}
+.container .btn:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+
