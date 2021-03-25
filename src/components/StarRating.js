@@ -37,4 +37,7 @@ StarRating.defaultProps = {
   rate:1,
   handleRating: () => {},
 };
-export default StarRating;
+export default StarRating
+
+
+

@@ -133,5 +133,32 @@ div {
 }
 
 
+body{
+background-color: black;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
 
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 500px;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+a:link, a:visited {
+  background-color: #3b29a1;
+  color: rgb(0, 0, 0);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 
+a:hover, a:active {
+  background-color: rgb(25, 66, 99);
+}

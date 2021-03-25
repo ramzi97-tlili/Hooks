@@ -1,4 +1,5 @@
-let movies =[
+
+export const data =[
     {Title:'Harry Potter',
     id:Math.random(),
     description:'',
